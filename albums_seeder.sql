@@ -1,4 +1,5 @@
 USE codeup_test_db;
+TRUNCATE albums;
     INSERT INTO albums(artist, name, release_date, sales, genre)
     VALUES ('Led Zeppelin', 'Led Zeppelin IV', 1971, 30.4, 'Hard Rock'),
           ('Michael Jackson', 'Bad', 1987, 21.2, 'Pop'),
@@ -21,6 +22,7 @@ USE codeup_test_db;
           ('The Beatles', '1', 2000, 23.2, 'Rock'),
           ('Adele', '21', 2011, 27.1, 'Pop'),
           ('AC/DC',' Back in Black', 1980, 30.1,'Hard rock'),
+          ('Michael Jackson', 'Thriller', 1982, 51.2, 'Pop'),
           ('Whitney Houston', 'The Bodyguard', 1992, 28.7,'R&B'),
           ('Pink Floyd', 'The Dark Side of the Moon', 1973, 24.8,'Progressive rock'),
           ('Eagles', 'Their Greatest Hits (1971–1975)', 1976, 41.2,'Country rock'),
